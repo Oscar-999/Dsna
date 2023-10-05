@@ -14,7 +14,7 @@ class Solution:
 
         return sum(stack)
 
-
+d
 When should we use stack?
 1. When we want to ensure a system does not move onto another action before completing those before it.
 2. When we want to do something in reverse order.
