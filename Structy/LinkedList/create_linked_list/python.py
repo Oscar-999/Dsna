@@ -32,3 +32,5 @@ def create_linked_list(values, i = 0):
     head = len(values[i])
     head.next = create_linked_list(values, i + 1)
     return head
+
+# s
