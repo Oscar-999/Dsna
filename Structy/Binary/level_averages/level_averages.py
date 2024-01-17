@@ -19,3 +19,6 @@ def fill_levels(root, levels, level_num):
 
     fill_levels(root.left,levels, level_num + 1)
     fill_levels(root.right,levels, level_num + 1)
+# n = number of nodes
+# Time: O(n)
+# Space: O(n)
