@@ -11,6 +11,8 @@ class Solution:
         for i in range(n):
             j = i - 1
 
-            while pairs[j].key > pairs[j+1].key:
+            while j >= 0 and pairs[j].key > pairs[j+1].key:
                 pairs[j], pairs[j+1] = pairs[j+1], pairs[j]
-        return res
+                j -= 1
+            res.append(pairs[:])
+        return res # IF NORMAL INSERTION SORT DO return pairs
