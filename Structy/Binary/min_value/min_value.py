@@ -50,3 +50,22 @@ def tree_min_value(root):
 # n = number of nodes
 # Time: O(n)
 # Space: O(n)
+
+
+def tree_min_value(root):
+  min_val = float("inf")
+  queue = deque([root])
+
+  while queue:
+    node = queue.popleft()
+    if min_val > node.val:
+      min_val = node.val
+
+    if node.left:
+      queue.append(node.left)
+    if node.right:
+      queue.append(node.right)
+  return min_val
+
+
+
