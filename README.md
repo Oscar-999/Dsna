@@ -21,4 +21,4 @@ I've structured my learning path to cover a wide range of topics in DS&A. From f
 - JavaScript Basics for Algorithmic Problem Solving
 - and more...
 
-![coding-gif]([https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzRzdWd1cnF4M2ZoN252ZmgwamJqM3pkaDFvOXpuMTcyODBja2xlNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/r6BiWMN3L8hLPns9N5/giphy.gif](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWh4MTkwaWY1NHYyYXpicG1scWN3bzRlZWk4Nm9mYW9yMmJiNGpobCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2IudUHdI075HL02Pkk/giphy.gif)https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWh4MTkwaWY1NHYyYXpicG1scWN3bzRlZWk4Nm9mYW9yMmJiNGpobCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2IudUHdI075HL02Pkk/giphy.gif)
+![coding-gif](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWh4MTkwaWY1NHYyYXpicG1scWN3bzRlZWk4Nm9mYW9yMmJiNGpobCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2IudUHdI075HL02Pkk/giphy.gif)
