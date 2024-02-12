@@ -1,0 +1,6 @@
+Arrays
+
+Lookup 0(1)
+push 0(1)
+insert 0(n)
+delete 0(n)
