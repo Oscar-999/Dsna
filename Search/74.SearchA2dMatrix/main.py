@@ -1,16 +1,29 @@
-
 class Solution:
-    def guessNumber(self, n: int) -> int:
-        l, r = 1, n
+    def searchMatrix(self, matrix: List[List[int]], target: int) -> bool:
+        ROWS, COLS = len(matrix), len(matrix[0])
 
+        top, bottom = 0, ROWS - 1
 
-        while True:
-            m = l + ((r-1)//2)
-            res = guess(m)
+        while top <= bottom:
+            row = (top + bottom) // 2
 
-            if res > 0:
+            if target > matrix[row][-1]:
+                top = row + 1
+            elif target < matrix[row][0]:
+                bottom = row -1
+            else:
+                break
+
+        if not( top <= bottom):
+            return False
+        row = (top + bottom) //2
+        l,r = 0, COLS - 1
+        while l <= r:
+            m = (l + r) // 2
+            if target > matrix[row][m]:
                 l = m + 1
-            elif res < 0:
+            elif target < matrix[row][m]:
                 r = m - 1
             else:
-                return m
+                return True
+        return False
