@@ -4,3 +4,5 @@ Lookup 0(1)
 push 0(1)
 insert 0(n)
 delete 0(n)
+
+Static Arrays have to double and then copy prev vaules 0(n)
