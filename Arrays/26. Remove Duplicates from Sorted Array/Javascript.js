@@ -10,6 +10,6 @@ var removeDuplicates = function(nums) {
     return l
 };
 
-
+//adjusting remove dup
 
 
