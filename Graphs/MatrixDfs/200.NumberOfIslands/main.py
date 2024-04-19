@@ -63,4 +63,3 @@ class SolutionBFS:
                      islands +=1
 
          return islands
-
