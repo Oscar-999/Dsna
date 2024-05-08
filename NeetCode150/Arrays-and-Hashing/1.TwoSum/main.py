@@ -5,8 +5,8 @@ class Solution:
             diff = target - n
             if diff in hashmap:
                 return [hashmap[diff],i]
-            else:
-                hashmap[n] = i
+            hashmap[n] = i
+        return
 
 
 
@@ -15,4 +15,3 @@ class Solution:
 
 #! Notes
 # Hashmap is mapped val: index
-
