@@ -15,3 +15,4 @@ class Solution:
 
 #! Notes
 # Hashmap is mapped val: index
+# Tc 0(n) Sc 0(n)
